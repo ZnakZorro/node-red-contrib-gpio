@@ -1,0 +1,32 @@
+{
+  "name": "node-red-contrib-gpio",
+  "version": "0.0.9",
+  "description": "Node Red integration with gpio App and Server",
+  "main": "gpio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/znakzorro/node-red-contrib-gpio.git"
+  },
+  "keywords": [
+    "node-red",
+    "gpio"
+  ],
+  "author": "znakzorro<znakzorro@gmail.com> (http://szczech.com.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/znakzorro/node-red-contrib-gpio/issues"
+  },
+  "homepage": "https://github.com/znakzorro/node-red-contrib-gpio",
+  "dependencies": {
+
+  },
+  "node-red": {
+    "nodes": {
+        "gpio": "gpio.js"
+    }
+  }
+}
+
